@@ -1,33 +1,244 @@
-.App {
-  text-align: center;
-}
+/*@font-face {*/
+  /*font-family: zhizn;*/
+  /*src: url("font/zhizn.otf");*/
+/*}*/
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+App {
   display: flex;
   flex-direction: column;
+  font-family: zhizn;
+  margin: 0px;
+
+}
+header{
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 44px;
+  background-color: black;
+}
+.logo-btn {
+  display: flex;
+  width: 44px;
+}
+.logo-btn img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  list-style-type: none;
+  padding: 0%;
+
+}
+.menu {
+  background: black;
+}
+.menu a{
+  background-color: black;
   color: white;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+header a:hover{
+  color: yellow;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /*border: 1px solid black;*/
+
+}
+
+.main_p{
+  /*border: 1px solid black;*/
+
+}
+
+main p {
+  font-size: 20px;
+  text-align: justify;
+  max-width: 600px;
+  /*border: 1px solid black;*/
+  transition: all .25s linear;
+  margin: 5px;
+
+}
+
+.main_img {
+  display: flex;
+  justify-content: center;
+  /*border: 1px solid black;*/
+}
+
+.main_img img {
+  max-width: 400px;
+  /*border: 1px solid black;*/
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+}
+
+footer {
+  color: #b8b8b8;
+  font-size: 12px;
+  height: 55.5px;
+  background-color: #313030;
+  display: flex;
+  align-items: center;
+
+}
+
+.footer_p {
+  /*border: 1px solid black;*/
+  min-width: 70px;
+  padding:5px;
+}
+
+.footer_p p{
+  font-size: 12px;
+}
+
+.footer_img {
+  /*border: 1px solid black;*/
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  /*border: 1px solid yellow;*/
+  height: 100%;
+}
+
+.footer_img a{
+  display: block;
+  width: 50px;
+  /*border: 1px solid red;*/
+  text-decoration: none;
+
+}
+
+.footer_img img{
+  display: block;
+  /*border: 1px solid green;*/
+  color: #b8b8b8;
+
+
+}
+.logo-twitter{
+  /*border: 1px solid green;*/
+  width: 50%;
+  margin: 25% 20% 10%;
+}
+.logo-google{
+  width: 60%;
+  margin: 25% 15% 10%;
+}
+.logo-facebook{
+  width: 60%;
+  margin: 25% 15% 10%;
+}
+
+@media screen and (max-width: 380px) {
+  header{
+    display: block;
+    height: 44px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
   }
-  to {
-    transform: rotate(360deg);
+
+  .logo-btn {
+
+  }
+  .logo-btn img{
+
+
+  }
+
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    width: 75%;
+    left: -75%;
+    transition: .25s ease-in-out;
+    transition-property: left;
+    background: black;
+    opacity: .8;
+
+  }
+  .active{
+    left: 0%;
+    transition: .25s ease-in-out;
+    transition-property: left;
+  }
+
+  .menu li{
+    text-align: center;
+    height: 50%;
+    border-top: 1px solid white;
+    margin: 0%;
+    padding: 0%;
+
+
+
+
+  }
+  .menu li a{
+    padding: 6% 1% 7%;
+    display: block;
+  }
+
+  header a:hover{
+    color: yellow;
+
+  }
+  h1{
+    display:flex;
+    margin-top: 55px;
+  }
+  main{
+  }
+  main .main_p{
+    width: 100%;
+    height: auto;
+  }
+  main p {
+    font-size: 12px;
+  }
+
+  main .main_img{
+    width: 100%;
+  }
+
+  main .main_img img {
+    width: 100%;
+  }
+
+  .footer_img img{
+    font-size: 7px;
+  }
+
+  .footer_p p {
+    font-size: 7px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 1075px) {
+  main p {
+    max-width: 1075px;
+    min-width: 330px;
   }
 }
