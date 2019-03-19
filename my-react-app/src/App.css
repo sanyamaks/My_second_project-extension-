@@ -1,9 +1,9 @@
-/*@font-face {*/
-  /*font-family: zhizn;*/
-  /*src: url("font/zhizn.otf");*/
-/*}*/
+@font-face {
+  font-family: zhizn;
+  src: url("font/zhizn.otf");
+}
 
-App {
+body {
   display: flex;
   flex-direction: column;
   font-family: zhizn;

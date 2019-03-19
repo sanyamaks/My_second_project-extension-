@@ -3,12 +3,16 @@ import footer_logo_facebook from '../../img/footer_logo-facebook.png';
 import footer_logo_google from '../../img/footer_logo_google.png'
 import footer_logo_twitter from '../../img/footer_logo_twitter.png'
 
+
+
+
+
 class Footer extends Component {
     render() {
         return (
             <footer className="Footer">
                 <div className="footer_p">
-                    <p> Все права защищены </p>
+                    <p> Все права защищены</p>
                 </div>
                 <div className="footer_img">
                     <a href="https://twitter.com/"><img className="logo-twitter" src={footer_logo_twitter}
