@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f970da83-b344-4bf0-8cba-3e6794c1a466" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-react-app/src/font/zhizn.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f970da83-b344-4bf0-8cba-3e6794c1a466" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -271,18 +264,17 @@
       <workItem from="1552770152753" duration="1745000" />
       <workItem from="1552828313200" duration="11341000" />
       <workItem from="1552926859506" duration="6006000" />
-      <workItem from="1553008894488" duration="9562000" />
+      <workItem from="1553008894488" duration="9803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29648000" />
+    <option name="totallyTimeSpent" value="29889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1069" y="0" width="851" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30750307" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30750307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -295,7 +287,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21266969" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21266969" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
