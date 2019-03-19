@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f970da83-b344-4bf0-8cba-3e6794c1a466" name="Default Changelist" comment="" />
+    <list default="true" id="f970da83-b344-4bf0-8cba-3e6794c1a466" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-react-app/public/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-app/public/precache-manifest.9782b4d5226331ef3c1bf1e73a413dbf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-app/public/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-app/public/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,15 +19,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-react-app/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-react-app/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -34,11 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-react-app/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="272">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-react-app/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2093" selection-start-column="2093" selection-end-column="2093" />
             </state>
           </provider>
         </entry>
@@ -229,11 +234,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Александр\WebstormProjects\My_second_project-extension-\my-react-app\public" />
       <recent name="C:\Users\Александр\WebstormProjects\My_second_project-extension-\my-react-app\src\font" />
       <recent name="C:\Users\Александр\WebstormProjects\My_second_project-extension-\my-react-app\src\img" />
       <recent name="C:\Users\Александр\WebstormProjects\My_second_project-extension-\my-react-app\src\components\Header" />
       <recent name="C:\Users\Александр\WebstormProjects\My_second_project-extension-\my-react-app\src\components\Footer" />
-      <recent name="C:\Users\Александр\WebstormProjects\My_second_project-extension-\my-react-app\src\components\Main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,12 +269,12 @@
       <workItem from="1552770152753" duration="1745000" />
       <workItem from="1552828313200" duration="11341000" />
       <workItem from="1552926859506" duration="6006000" />
-      <workItem from="1553008894488" duration="10114000" />
+      <workItem from="1553008894488" duration="10428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30200000" />
+    <option name="totallyTimeSpent" value="30514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1069" y="0" width="851" height="1040" extended-state="0" />
@@ -418,8 +423,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-react-app/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="272">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-react-app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2093" selection-start-column="2093" selection-end-column="2093" />
         </state>
       </provider>
     </entry>
