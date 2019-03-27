@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "859e849fcc4f5a0c65e4",
-    "url": "/My_second_project-extension-/static/css/main.d472e338.chunk.css"
+    "revision": "1fc7041800f1cb857adc",
+    "url": "/My_second_project-extension-/static/css/main.93595100.chunk.css"
   },
   {
-    "revision": "859e849fcc4f5a0c65e4",
-    "url": "/My_second_project-extension-/static/js/main.3e808cda.chunk.js"
+    "revision": "1fc7041800f1cb857adc",
+    "url": "/My_second_project-extension-/static/js/main.2fe51972.chunk.js"
   },
   {
     "revision": "5f09116555ac365460c3",
     "url": "/My_second_project-extension-/static/js/runtime~main.a63ee5bb.js"
   },
   {
-    "revision": "812f21ed8f73d25738d9",
-    "url": "/My_second_project-extension-/static/js/2.1dbd26d1.chunk.js"
+    "revision": "ad623faaf8fbc1fb6e75",
+    "url": "/My_second_project-extension-/static/js/2.993c8c87.chunk.js"
   },
   {
     "revision": "0701b09d6325b357b3217b1efea6a844",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/My_second_project-extension-/static/media/zhizn.3166ee8b.otf"
   },
   {
-    "revision": "17ee04fee906543d53b90abf67bde9ae",
+    "revision": "fbd7cbde56999bfb4c7429b796afa93b",
     "url": "/My_second_project-extension-/index.html"
   }
 ];
