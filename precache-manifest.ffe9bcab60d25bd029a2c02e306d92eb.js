@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "1fc7041800f1cb857adc",
+    "revision": "13963a6054cf3c8be284",
     "url": "/My_second_project-extension-/static/css/main.93595100.chunk.css"
   },
   {
-    "revision": "1fc7041800f1cb857adc",
-    "url": "/My_second_project-extension-/static/js/main.2fe51972.chunk.js"
+    "revision": "13963a6054cf3c8be284",
+    "url": "/My_second_project-extension-/static/js/main.ae2ad692.chunk.js"
   },
   {
     "revision": "5f09116555ac365460c3",
     "url": "/My_second_project-extension-/static/js/runtime~main.a63ee5bb.js"
   },
   {
-    "revision": "ad623faaf8fbc1fb6e75",
-    "url": "/My_second_project-extension-/static/js/2.993c8c87.chunk.js"
-  },
-  {
-    "revision": "0701b09d6325b357b3217b1efea6a844",
-    "url": "/My_second_project-extension-/static/media/marinart.0701b09d.jpg"
+    "revision": "787c1f7c56d63a3d1ea9",
+    "url": "/My_second_project-extension-/static/js/2.ce300a45.chunk.js"
   },
   {
     "revision": "55785f67f3cc90f1ac7016fd62d807fc",
     "url": "/My_second_project-extension-/static/media/header_logo.55785f67.ico"
+  },
+  {
+    "revision": "0701b09d6325b357b3217b1efea6a844",
+    "url": "/My_second_project-extension-/static/media/marinart.0701b09d.jpg"
   },
   {
     "revision": "e8f19be2c9438066db1897df17d1b558",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/My_second_project-extension-/static/media/zhizn.3166ee8b.otf"
   },
   {
-    "revision": "fbd7cbde56999bfb4c7429b796afa93b",
+    "revision": "a90ede3654fba1b56d528013133a7c0e",
     "url": "/My_second_project-extension-/index.html"
   }
 ];
