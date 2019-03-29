@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   font-family: zhizn;
   margin: 0px;
+  min-height: 20em;
 
 }
 header{

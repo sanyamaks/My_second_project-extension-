@@ -7,20 +7,20 @@ import footer_logo_twitter from '../../img/footer_logo_twitter.png'
 
 
 
-class Footer extends Component {
+export default class Footer extends Component {
     render() {
         return (
             <footer className="Footer">
                 <div className="footer_p">
-                    <p> Все права защищены</p>
+                    <p>by Alex M</p>
                 </div>
                 <div className="footer_img">
                     <a href="https://twitter.com/"><img className="logo-twitter" src={footer_logo_twitter}
-                                                        alt="Twitter"></img></a>
+                                                        alt="Twitter"/></a>
                     <a href="https://plus.google.com/discover"><img className="logo-google" src={footer_logo_google}
-                                                                    alt="Google+"></img></a>
+                                                                    alt="Google+"/></a>
                     <a href="https://facebook.com"><img className="logo-facebook" src={footer_logo_facebook}
-                                                        alt="Facebook"></img></a>
+                                                        alt="Facebook"/></a>
                 </div>
 
             </footer>
@@ -28,4 +28,3 @@ class Footer extends Component {
     }
 }
 
-export default Footer;

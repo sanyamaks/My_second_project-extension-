@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import marinart from '../../img/marinart.jpg'
 
-class Main extends Component {
+export default class Main extends Component {
     render() {
         return (
             <main className="main">
@@ -14,12 +14,10 @@ class Main extends Component {
                     </p>
                     </div>
                     <div className="main_img">
-                        <img src={marinart} alt="Photo M A R I N. A R T"></img>
+                        <img src={marinart} alt="Photo M A R I N. A R T"/>
                     </div>
 
             </main>
     );
     }
     }
-
-    export default Main;
