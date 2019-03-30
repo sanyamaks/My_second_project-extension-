@@ -1,43 +1,36 @@
-import React, {Component} from 'react';
+import React from 'react';
 import header_logo from '../../img/header_logo.ico';
-import $ from 'jquery';
 import {Link} from 'react-router-dom'
 
-export default class Header extends Component {
+export default class Header
+    extends React.PureComponent {
 
-    componentDidMount = () => {
-        $('.logo-btn').click(function () {
-            $('.menu').toggleClass('active');
-        })
-
-        $('.Portfolio').click(function () {
-            $('.menu').toggleClass('active');
-
-        })
-
-        $('.home').click(function () {
-            $('.menu').toggleClass('active');
-
-        })
-        $('.About').click(function () {
-            $('.menu').toggleClass('active');
-
-        })
-        $('.Contact').click(function () {
-            $('.menu').toggleClass('active');
-
-        })
+    constructor(props) {
+        super(props);
+        this.state = {
+            isActive: false
+        };
+        this.setActive = this.setActive.bind(this);
     }
 
+    setActive = function (isActive) {
+        this.setState({
+            isActive: isActive
+        })
+    };
+
+
     render() {
+        const isActive = this.state.isActive;
         return (
+
             <header className="header">
 
-                <div className="logo-btn">
+                <div className="logo-btn" onClick={() => this.setActive(!isActive)}>
                     <img src={header_logo} alt="Логотип"/>
                 </div>
 
-                <ul className="menu">
+                <ul className={`menu ${isActive ? "active" : ""}`}>
                     <li className="home" title="Главная">
                         <Link to='/My_second_project-extension-'>Главная</Link>
                     </li>
@@ -53,8 +46,7 @@ export default class Header extends Component {
                     </li>
                 </ul>
 
-            </header>
-        );
+            </header>)
     }
 }
 
