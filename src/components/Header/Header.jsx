@@ -19,7 +19,7 @@ export default class Header extends Component {
             $('.menu').toggleClass('active');
 
         })
-        $('.about').click(function () {
+        $('.About').click(function () {
             $('.menu').toggleClass('active');
 
         })
@@ -39,14 +39,18 @@ export default class Header extends Component {
 
                 <ul className="menu">
                     <li className="home" title="Главная">
-                        <Link to='/'>Главная</Link>
+                        <Link to='/My_second_project-extension-'>Главная</Link>
                     </li>
                     <li className="Portfolio" title="Портфолио">
-                        <Link to='/Portfolio'>Портфолио</Link>
+                        <Link to='/My_second_project-extension-/Portfolio'>Портфолио</Link>
                     </li>
 
-                    <li className="about" title="Обо мне"><a href="#">Обо мне</a></li>
-                    <li className="Contact" title="Контакты"><a href="#">Контакты</a></li>
+                    <li className="About" title="Обо мне">
+                        <Link to='/My_second_project-extension-/About'>Обо мне</Link>
+                    </li>
+                    <li className="Contact" title="Контакты">
+                        <Link to='/My_second_project-extension-/Contact'>Контакты</Link>
+                    </li>
                 </ul>
 
             </header>
