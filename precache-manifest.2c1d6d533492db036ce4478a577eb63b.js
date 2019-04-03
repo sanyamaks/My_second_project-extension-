@@ -1,27 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "13963a6054cf3c8be284",
-    "url": "/My_second_project-extension-/static/css/main.93595100.chunk.css"
+    "revision": "9924f732cbe430ba3b41",
+    "url": "/My_second_project-extension-/static/css/main.2b47172d.chunk.css"
   },
   {
-    "revision": "13963a6054cf3c8be284",
-    "url": "/My_second_project-extension-/static/js/main.ae2ad692.chunk.js"
+    "revision": "9924f732cbe430ba3b41",
+    "url": "/My_second_project-extension-/static/js/main.3ea5897b.chunk.js"
   },
   {
     "revision": "5f09116555ac365460c3",
     "url": "/My_second_project-extension-/static/js/runtime~main.a63ee5bb.js"
   },
   {
-    "revision": "787c1f7c56d63a3d1ea9",
-    "url": "/My_second_project-extension-/static/js/2.ce300a45.chunk.js"
-  },
-  {
-    "revision": "55785f67f3cc90f1ac7016fd62d807fc",
-    "url": "/My_second_project-extension-/static/media/header_logo.55785f67.ico"
-  },
-  {
-    "revision": "0701b09d6325b357b3217b1efea6a844",
-    "url": "/My_second_project-extension-/static/media/marinart.0701b09d.jpg"
+    "revision": "094dec3839de65501a33",
+    "url": "/My_second_project-extension-/static/js/2.3dd6dc2c.chunk.js"
   },
   {
     "revision": "e8f19be2c9438066db1897df17d1b558",
@@ -40,11 +32,19 @@ self.__precacheManifest = [
     "url": "/My_second_project-extension-/static/media/Portfolio4.c0aaf0c7.jpg"
   },
   {
+    "revision": "55785f67f3cc90f1ac7016fd62d807fc",
+    "url": "/My_second_project-extension-/static/media/header_logo.55785f67.ico"
+  },
+  {
+    "revision": "0701b09d6325b357b3217b1efea6a844",
+    "url": "/My_second_project-extension-/static/media/marinart.0701b09d.jpg"
+  },
+  {
     "revision": "3166ee8b41df8ca81ffff84c1f96dd9e",
     "url": "/My_second_project-extension-/static/media/zhizn.3166ee8b.otf"
   },
   {
-    "revision": "a90ede3654fba1b56d528013133a7c0e",
+    "revision": "4dd5375397e86bd0b3d8b9cc49f14685",
     "url": "/My_second_project-extension-/index.html"
   }
 ];
