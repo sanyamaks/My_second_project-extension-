@@ -1,0 +1,27 @@
+.cats{
+    display: block;
+    flex-wrap: wrap;
+
+}
+
+.contact__card{
+    flex-basis: 250px;
+    margin: 20px;
+
+
+}
+ .contact__card img{
+     width: 100%;
+     height: auto;
+
+ }
+
+ .contact__card h3{
+     text-align: center;
+
+ }
+
+ .contact__card p {
+     font-size: 12px;
+
+ }

@@ -13,6 +13,9 @@ class Portfolio extends Component {
     render() {
         return (
             <main className="gallery">
+                <h1>
+                    <nobr>Портфолио</nobr>
+                </h1>
                 <StackGrid monitorImagesLoaded
                            columnWidth={200}
                            duration={600}

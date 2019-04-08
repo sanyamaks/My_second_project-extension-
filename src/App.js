@@ -14,9 +14,6 @@ class App extends Component {
         return (
             <div className="App">
                 <Header/>
-                <h1>
-                    <nobr>M A R I N. A R T</nobr>
-                </h1>
                     <Switch>
                         {/*<Route exact path='/' component={Main}/>*/}
                         {/*Из-за переноса на сервер гитхаб необходимо убрать ссылку (менять их) для правильных переходов*/}
