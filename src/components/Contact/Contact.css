@@ -7,6 +7,7 @@
 .contact__card{
     flex-basis: 250px;
     margin: 20px;
+    box-shadow: 3px 4px 7px black;
 
 
 }
@@ -23,5 +24,10 @@
 
  .contact__card p {
      font-size: 12px;
+
+ }
+
+ .number__phone {
+     text-decoration: underline;
 
  }

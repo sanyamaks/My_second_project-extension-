@@ -2,6 +2,7 @@ import React from 'react';
 import './Contact.css'
 import ContactCard from "./ContactCard/ContactCard";
 import StackGrid, {transitions, easings} from "react-stack-grid"
+import Portfolio2 from "../../img/Portfolio2.jpg";
 
 export default class Contact extends React.PureComponent {
     render() {
@@ -47,6 +48,18 @@ export default class Contact extends React.PureComponent {
                         phone = "(212) 555-4567"
                         email = "thecat@hotmail.com"
                     />
+                    <ContactCard
+                        name = "Alex"
+                        imgUrl = "http://placekitten.com/200/100"
+                        phone = ""
+                        email = "Alex@github.com"
+                    />
+                        <ContactCard
+                            name = "Alex"
+                            imgUrl = {Portfolio2}
+                            phone = "Какой-то номер"
+                            email = ""
+                        />
                     </StackGrid>
                     {/*<div className="contact__card">*/}
                         {/*<img align="center" src="http://placekitten.com/300/200"/>*/}
