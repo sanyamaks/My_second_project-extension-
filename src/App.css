@@ -94,15 +94,6 @@ header a:hover {
     margin: 5px;
 }
 
-.gallery {
-    display: block;
-
-}
-
-.gallery__image img {
-    width: 200px;
-
-}
 
 footer {
     color: #b8b8b8;
