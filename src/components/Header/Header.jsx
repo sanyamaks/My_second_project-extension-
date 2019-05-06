@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import header_logo from '../../img/header_logo.ico';
 import $ from 'jquery';
-import {Link} from 'react-router-dom'
+import  Sidebar from './Sidebar/Sidebar'
 
-export default class Header extends Component {
+class Header extends Component{
 
     componentDidMount = () => {
         $('.logo-btn').click(function () {
@@ -29,7 +29,17 @@ export default class Header extends Component {
         })
     }
 
-    render() {
+    render(){
+
+
+        let SidebarElement = this.props.SidebarData.map ( el => {
+            return <Sidebar
+                nameTitleLink = {el.nameTitleLink}
+            />
+        })
+
+
+
         return (
             <header className="header">
 
@@ -38,19 +48,7 @@ export default class Header extends Component {
                 </div>
 
                 <ul className="menu">
-                    <li className="home" title="Главная">
-                        <Link to='/My_second_project-extension-'>Главная</Link>
-                    </li>
-                    <li className="Portfolio" title="Портфолио">
-                        <Link to='/My_second_project-extension-/Portfolio'>Портфолио</Link>
-                    </li>
-
-                    <li className="About" title="Обо мне">
-                        <Link to='/My_second_project-extension-/About'>Обо мне</Link>
-                    </li>
-                    <li className="Contact" title="Контакты">
-                        <Link to='/My_second_project-extension-/Contact'>Контакты</Link>
-                    </li>
+                    {SidebarElement}
                 </ul>
 
             </header>
@@ -58,4 +56,5 @@ export default class Header extends Component {
     }
 }
 
+    export default Header;
 // Для работы jquery -> npm install --save jquery?

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function GalleryPart(props){
+const GalleryPart = (props) => {
         return(
         <div className="gallery__box">
             <div className="gallery__image">

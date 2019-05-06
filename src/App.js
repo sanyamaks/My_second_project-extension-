@@ -8,25 +8,26 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import {Switch, Route} from 'react-router-dom'
 
+const App = (props) => {
 
-class App extends Component {
-    render() {
+    {
+
         return (
             <div className="App">
-                <Header/>
-                    <Switch>
-                        {/*<Route exact path='/' component={Main}/>*/}
-                        {/*Из-за переноса на сервер гитхаб необходимо убрать ссылку (менять их) для правильных переходов*/}
-                        <Route exact path='/My_second_project-extension-' component={Main}/>
-                        <Route exact path='/My_second_project-extension-/Portfolio' component={Portfolio}/>
-                        <Route exact path='/My_second_project-extension-/About' component={About}/>
-                        <Route exact path='/My_second_project-extension-/Contact' component={Contact}/>
-                    </Switch>
+                <Header SidebarData={props.SidebarData}/>
+                <Switch>
+                    {/*<Route exact path='/' component={Main}/>*/}
+                    {/*Из-за переноса на сервер гитхаб необходимо убрать ссылку (менять их) для правильных переходов*/}
+                    <Route exact path='/My_second_project-extension-' component={Main}/>
+                    <Route path='/My_second_project-extension-/Portfolio'
+                           render={() => <Portfolio GalleryData={props.GalleryData}/>}/>
+                    <Route exact path='/My_second_project-extension-/About' component={About}/>
+                    <Route exact path='/My_second_project-extension-/Contact' component={Contact}/>
+                </Switch>
                 <Footer/>
             </div>
         );
     }
 }
 
-
-export default App;
+    export default App;

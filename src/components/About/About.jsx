@@ -11,7 +11,8 @@ export default class About extends Component {
                     className="content__text">
                     <p>
                         В стадии разработки<br/>
-                        Проверка 1<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        Проверка 1<br/>
+                        Проверка 2<br/><br/><br/><br/><br/><br/><br/><br/><br/>
                     </p>
 
 
