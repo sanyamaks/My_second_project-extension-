@@ -3,11 +3,9 @@ import {Link} from "react-router-dom"
 
 const Sidebar = (props) => {
     return (
-        <div className='Sidebar__Link'>
-            <li className="home" title={props.nameTitleLink}>
-                <Link to='/My_second_project-extension-'>{props.nameTitleLink}</Link>
+            <li className="Sidebar__Link" title={props.nameTitleLink}>
+                <Link to={'/My_second_project-extension-/' + props.pathTitleLink}>{props.nameTitleLink}</Link>
             </li>
-        </div>
 
 
     )

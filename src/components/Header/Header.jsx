@@ -35,6 +35,7 @@ class Header extends Component{
         let SidebarElement = this.props.SidebarData.map ( el => {
             return <Sidebar
                 nameTitleLink = {el.nameTitleLink}
+                pathTitleLink = {el.pathTitleLink}
             />
         })
 

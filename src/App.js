@@ -14,13 +14,13 @@ const App = (props) => {
 
         return (
             <div className="App">
-                <Header SidebarData={props.SidebarData}/>
+                <Header SidebarData={props.state.SidebarData}/>
                 <Switch>
                     {/*<Route exact path='/' component={Main}/>*/}
                     {/*Из-за переноса на сервер гитхаб необходимо убрать ссылку (менять их) для правильных переходов*/}
                     <Route exact path='/My_second_project-extension-' component={Main}/>
                     <Route path='/My_second_project-extension-/Portfolio'
-                           render={() => <Portfolio GalleryData={props.GalleryData}/>}/>
+                           render={() => <Portfolio GalleryData={props.state.GalleryData}/>}/>
                     <Route exact path='/My_second_project-extension-/About' component={About}/>
                     <Route exact path='/My_second_project-extension-/Contact' component={Contact}/>
                 </Switch>
